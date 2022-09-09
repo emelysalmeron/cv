@@ -7,39 +7,33 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Emely Salmeron
+    name: Patrick Halasik
     tagline:
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: emelyroxanasalmeron@gmail.com
-    phone: +32 492 797 623
-    linkedin: linkedin.com/in/emely-salmeron
+    email: patrickhalasik@gmail.com
+    phone: +32 489 550 904
+    linkedin: linkedin.com/in/patrick-halasik
     citizenship: Grimbergen
 
     languages:
-      - idiom: Spanish
+      - idiom: French
+        level: Native
+
+      - idiom: Polish
         level: Native
 
       - idiom: English
         level: Professional
 
-      - idiom: French
-        level: Professional
-
       - idiom: Dutch
-        level: Elementary
+        level: Intermediary
 
 education:
-    - degree: Web development program
-      university: Hack your Future (Belgium)
-      time: 2020-2021
-      details: rzrzr
-          - Bullet point
-          - Bullet point
-    - degree: Bachelor in Management & Marketing
-      university: ESI School of Management (El Salvador)
-      time: 2016 - 2019
+    - degree: Specialized Bachelor in Health Informatics
+      university: Haute école EPHEC, Brussels
+      time: 2022 - 2023 (current)
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -48,49 +42,70 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+    - degree: Bachelor in Computer Sciences
+      university: Institut des Carrières Commerciales, Brussels
+      time: Graduated in 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Computer technician diploma
+      university: INRACI, Brussels
+      time: Graduated in 2014
+      details: rzrzr
+          - Bullet point
+          - Bullet point
 experiences:
-    - role: Logistics Officer
-      time: June 2022 - present
+    - role: Software engineer
+      time: September 2021 - present
       company: Procter & Gamble, Brussels
       details: |
-        In my current role, I register and classify all type of chemicals, packagings and lab consumables. This is an extended process where all the products are measured per quantity and type of chemical. In order to dispatch them to the respective laboratory, they have to go through several verifications such as:
-        - Checking the Safety Data Sheet for all of them
-        - Identifying all the necessary details & specifications for quality purposes
-        - Taking all the necessary steps for materials without an existing Safety Data Sheet
-        - Following high standards quality process to deliver the chemicals to the laboratories
-    - role: Order picker
-      time: June 2021 - July 2021
-      company: Bleckmann, Brussels
+        - Development of a web application in Angular 14
+        - Development of a REST API in .NET 6
+        - Maintenance of legacy software in VB.Net
+        - Virtual machine & SQL server management on Azure
+        - System and software analysis - specifications, UML2 diagrams
+        - SQL scripts/triggers and data management tools (MSSQL, DBeaver)
+        - Github and Microsoft Planner for change management & issue tracking
+    - role: Software developer
+      time: April 2021- November 2021
+      company: Van Hoorebeke Timber, Ghent
       details: |
-        Organization of customer orders by shipping carrier & tracking/reporting of inventory and futury deliveries
-          - Managing third-party warehouse inventory
-          - Creation and organization of shipping labels
-          - Troubleshooting internal issues with the inventory system
-          - Responding to shipping complaints, lost items, damages
-          - Assisting coordination of all shipments for all locations as per request
-    - role: Customer Experience Analyst
-      time: November 2018 - February 2020
-      company: Telus, El Salvador
+        - Development of a .NET desktop application using WinForms & VB.Net
+        - Data scrapping of supplier files with the .NET NPOI library
+        - Transformation of scraped data into .csv files compatible with the company's CRM system
+    - role: Internship in data extraction
+      time: January 2021 - April 2021
+      company: Mercura Industries, Brussels
       details: |
-        Monitoring and auditing various transactions of calls, emails, chats conducted by Customer Service Representatives based on internal quality assurance and/or external customers to provide an excellent experience. 
-          - Analyzing and scrubbing CSAT surveys to create and update daily reports on internal errors that arise within the account
-          - Conducting the review and analysis of data or variables that affect the customer experience, such as escalations
-          - Establishing areas of opportunity and/or strengths
-          - Actively participating in calibrations to ensure alignment between the business
-          - Forecating process & data of Customer Experience department and implementation of coaching methodology
-          - Also in charge of tasks related to Back office, Root Cause Analysis and overall ensuring quality standards in all lines of business and Key Performance Indicators compliance
-    - role: Technical Support Analyst
-      time: May 2016 - November 2018
-      company: Telus, El Salvador
+        - .CSV & .XLS data extraction with Excel & VBA
+        - Configuration of the company's new CRM system Zoho Inventory
+        - Data migration from the old to the new CRM system
+    - role: Assembly worker
+      time: July 2017 - February 2020
+      company: Mercura Industries, Brussels
       details: |
-        As Technical Support and Customer Service for business wireless services in Canada, I was in charge of daily troubleshooting guidance and solutions, as well as assigning and setting up IP addresses for wireless devices.
-          - Helping customers to manage different software
-          - Setting up customers devices and recovering accounts
-          - Making follow-ups and escalations to support teams
-          - Resolving tickets with due dates
-          - Using Sales Force Management and SAP to place sales orders, internal & external communication 
-    - role: Customer Service Representative
-      time: January 2015 - April 2016
-      company: Sykes, El Salvador
-      details: |
-        Working for a travel agency for flights and hotels fixing itineraries, removing fees, solving billing inquiries.
+        Assembly of aluminium trolleys destined for hospitals, hotels & cruise ships
+skills:
+  title: Skills
+  toolset:
+    - name: .NET 6 (C#)
+      level: 90%
+    - name: Angular 14
+      level: 90%
+    - name: Microsoft Azure - App services, virtual machines & SQL servers
+      level: 90%
+    - name: .NET (VB.Net)
+      level: 80%
+    - name: Software analysis - specifications & UML2
+      level: 80%
+    - name: Bootstrap 5 & TailwindCSS
+      level: 70%
+    - name: Vue.js
+      level: 70%
+    - name: Laravel (PHP)
+      level: 70%
